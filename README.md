@@ -30,3 +30,12 @@
    To create a .gitignore file for the repository.
    >$ touch .gitignore
    Then in the gitignore file, we can add the name of the file we wish to ignore.
+
+   In the case, we want to remove an already tracked file,
+   Next you need to exclude the file from the repository. Probably you don't want to remove the file from your file system, this can be done with:
+   >git rm --cached path/to/filename.extension
+
+## Q5 You’ve accidentally committed some files on a DVCS. Revert the DVCS to a previous stable state
+   git reset --hard commit_number
+
+## Q6 Create a DVCS capable of supporting 2 similar dev environments. Make changes in the files which are present on both of them and then merge the environments into  one.
