@@ -15,7 +15,7 @@
     1) git clone https://github.com/anshumankmr/Git-Practice   
     After making changes
     2) git add . && git commit -m "Formatting Fixes"
-    3) git push origin master
+    3) git push origin main
 
 ## Q3 List down all the files which have changed in the last commit. List only the file names.
     Create a new file called temp.txt to observe the changes
@@ -46,5 +46,10 @@
    > git branch newBranch 
    Switch to newBranch
    > git checkout newBranch
+   
    Make some changes to the file.
    Commit the changes to newBranch.
+   >git checkout main
+   >git pull origin main
+   >git merge newBranchs
+   >git push origin main
