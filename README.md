@@ -39,3 +39,12 @@
    git reset --hard commit_number
 
 ## Q6 Create a DVCS capable of supporting 2 similar dev environments. Make changes in the files which are present on both of them and then merge the environments into  one.
+
+   Create a new file.
+   > touch newfile.txt
+   Create a new branch 
+   > git branch newBranch 
+   Switch to newBranch
+   > git checkout newBranch
+   Make some changes to the file.
+   Commit the changes to newBranch.
